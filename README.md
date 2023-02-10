@@ -1,7 +1,15 @@
 # cicd-demo
 
-## brew install jenkins-lts
-## brew services restart jenkins-lts 
+## Prerequisites
 
-### Add environment variable PATH containing path for sh and docker
-### Configure Poll SCM with Schedule "H/2 * * * *"
+### Install Jenkins
+```
+brew install jenkins-lts
+```
+
+```
+brew services restart jenkins-lts
+```
+
+### Create a dockerhub account
+https://hub.docker.com/
