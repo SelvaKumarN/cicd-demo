@@ -2,7 +2,7 @@ FROM maven:3.8.5-openjdk-17-slim as builder
 RUN mkdir -p /app/source
 COPY . /app/source
 WORKDIR /app/source
-RUN mvn clean package
+RUN mvn clean test package
 
 
 FROM builder
