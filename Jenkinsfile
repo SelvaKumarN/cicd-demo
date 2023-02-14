@@ -22,7 +22,7 @@ pipeline {
             }
             post {
                 always {
-                    archiveArtifacts artifacts: "targer/site/**/*.*"
+                    archiveArtifacts artifacts: "target/site/**/*.*"
                 }
             }
         }
