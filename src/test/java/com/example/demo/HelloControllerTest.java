@@ -8,6 +8,6 @@ public class HelloControllerTest {
     @Test
     void should_return_hello_world() {
         HelloController helloController = new HelloController();
-        Assertions.assertTrue(helloController.hello().contains("Hello World"));
+        Assertions.assertTrue(helloController.hello().contains("Hi World"));
     }
 }
