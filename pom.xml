@@ -54,6 +54,7 @@
 				<configuration>
 					<failsOnError>true</failsOnError>
 					<failOnViolation>true</failOnViolation>
+					<consoleOutput>true</consoleOutput>
 				</configuration>
 			</plugin>
 		</plugins>
