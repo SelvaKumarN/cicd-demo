@@ -40,9 +40,4 @@ pipeline {
             }
         }
     }
-    post {
-            always {
-                checkstyle 'build/reports/**/*.xml'
-            }
-        }
 } 
