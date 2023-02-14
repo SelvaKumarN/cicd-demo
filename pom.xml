@@ -47,16 +47,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>${maven.checkstyle.plugin.version}</version>
-				<configuration>
-					<failsOnError>true</failsOnError>
-					<failOnViolation>true</failOnViolation>
-					<consoleOutput>true</consoleOutput>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 	<reporting>
@@ -65,6 +55,10 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>3.2.1</version>
+				<configuration>
+					<failsOnError>true</failsOnError>
+					<failOnViolation>true</failOnViolation>
+				</configuration>
 				<reportSets>
 					<reportSet>
 						<reports>
